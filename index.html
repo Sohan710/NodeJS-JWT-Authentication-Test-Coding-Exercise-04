@@ -20,24 +20,25 @@
     ></script>
   </head>
   <body>
-    <div class="container-fluid">
-      <h1 class="row">Login</h1>
+    <div class="container-fluid" style="background-color: antiquewhite; padding: 20px; margin-top: 20px;">
+      <h1 class="row" style="font-weight: bold; margin-left: 20px; margin-top: 20px;">Login</h1>
 
       <main>
-        <div class="row">
+        <div class="row" style="width: 600px; margin-left: 30px;">
           <label for="Username" class="col-sm-2 control-label">Username</label>
           <input type="text" name="username" id="username" />
         </div>
-        <div class="row">
+        <div class="row" style="width: 600px; margin-left: 30px;">
           <label for="Username" class="col-sm-2 control-label">Password</label>
           <input type="password" name="password" id="password" />
         </div>
-        <div>
-          <button class="btn btn-primary" onclick="login()">Login</button>
-          <button class="btn btn-primary" onclick="getDashboard()">
+        <hr style="width: 600px; margin-left: 30px;">
+        <div style="width: 600px; margin-left: 30px;">
+          <button class="btn btn-primary" onclick="login()" style="width: 180px; margin-left: 10px;">Login</button>
+          <button class="btn btn-primary" onclick="getDashboard()" style="width: 180px; margin-left: 10px;">
             Dashboard
           </button>
-          <button class="btn btn-primary" onclick="getSettings()">
+          <button class="btn btn-primary" onclick="getSettings()" style="width: 180px; margin-left: 10px;">
             Settings
           </button>
         </div>

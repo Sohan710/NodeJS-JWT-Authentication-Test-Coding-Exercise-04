@@ -20,7 +20,7 @@ const jwtMW = expressJwt({
   algorithms: ["HS256"],
 });
 
-let user = [
+let users = [
   {
     id: 1,
     username: "Sohan",
